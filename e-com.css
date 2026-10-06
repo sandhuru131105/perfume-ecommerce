@@ -1,0 +1,867 @@
+@import url('https://fonts.googleapis.com/css2?family=BJCree:wght@400;500;600;700&family=Black+Ops+One&family=Bree+Serif&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Fontdiner+Swanky&family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montenegrin+Gothic+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Vast+Shadow&display=swap');
+
+
+*,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.img-logo {
+
+    height: 70px;
+}
+
+.main-header {
+    padding: 12px 0px;
+    background-color: #000000;
+    color: #FAFAFA;
+}
+
+.main-heade {
+    font-size: 14px;
+    font-weight: 400;
+    color: #FAFAFA;
+    font-family: 'Poppins';
+}
+
+.shop-now {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Poppins';
+    color: #FAFAFA;
+}
+
+.nav-bar {
+    padding-top: 40px;
+    padding-bottom: 16px;
+    border-bottom: 1px #B3B3B3 solid;
+}
+
+.li-sec {
+    list-style-type: none;
+}
+
+.li-sect {
+    margin-right: 48px;
+}
+
+.control-search {
+    border: none;
+    background-color: #F5F5F5;
+    margin-right: 1px;
+    outline: none;
+}
+
+.search-sec {
+    background-color: #F5F5F5;
+    padding: 7px 12px 7px 20px;
+    border-radius: 5px;
+}
+
+.icon-item {
+    margin-right: 24px;
+
+}
+
+.icon-items {
+    margin-right: 24px;
+    font-size: 28px;
+}
+
+.home-sec {
+    padding-top: 40px;
+    padding-bottom: 140px;
+
+}
+
+.bot-item {
+    border-right: 1px #C6C6C6 solid;
+  height: 63vh;
+}
+.drop-item{
+    margin-bottom: 16px;
+}
+.drop-items{
+    margin-bottom: 21px;
+}
+
+.home-sec .sales-sec {
+   
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.home-sec .sales-sectess {
+    
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.home-sec .sales-sect {
+   
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.home-sec .sales-secte {
+   
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.home-sec .saless-sect {
+    
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.home-sec .sales-sectes {
+   
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.home-sec .lis-sect {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.bg-color {
+    background-image: url(/assets/perfume.png);
+    width: 959px;
+    background-size: cover;
+    padding: 60px;
+    height: 414px;
+}
+
+.apple-icon {
+    margin-right: 24px;
+}
+
+.apple-poh {
+    margin-bottom: 20px;
+}
+
+.apple-head {
+    color: #E6E0D5;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins';
+    margin-bottom: 28px;
+}
+
+.benner-btn{
+    margin-bottom: 33px;
+}
+
+.shop-btn {
+    background-color: #C4975F;
+    margin-right: 30px;
+    border-radius: 5px;
+    padding: 10px 12px;
+}
+
+.shop-btns {
+    background-color: #C4975F;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+.shops-btns {
+    border: 1px #C4975F solid;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 12px;
+}
+
+.dis-btn {
+    background-color: transparent;
+    border-radius: 5px;
+    color: #fff;
+    outline: none;
+    border: none;
+}
+
+.apple-header {
+    font-size: 42px;
+    font-weight: 500;
+    color: #F5F1E8;
+    margin-bottom: 22px;
+}
+
+.shop-sec {
+    color: #ffff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins';
+    margin-right: 8px;
+    margin-bottom: 22px;
+}
+
+.shop-sect {
+    margin-bottom: 22px;
+}
+
+.dot-sec {
+    background-color: transparent;
+    border: 4px #fff solid;
+    padding: 4px;
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+}
+
+.dots-sec {
+    background-color: #DB4444;
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+}
+
+.list-sect {
+    list-style-type: none;
+}
+
+.trend-item {
+    margin-bottom: 24px;
+}
+
+.trending-sales {
+    margin-bottom: 40px;
+}
+
+.trending-sale {
+    margin-bottom: 60px;
+}
+
+.bg-underline {
+    background-color: #DB4444;
+    height: 40px;
+    width: 20px;
+    border-radius: 4px;
+    margin-right: 16px;
+
+}
+
+.day-sales {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Poppins';
+    color: #DB4444;
+}
+
+.sale-header {
+    font-size: 12px;
+    font-weight: 500;
+
+}
+
+.sale-num {
+    font-size: 37px;
+    font-weight: 700;
+}
+
+.timing-item {
+    margin-right: 17px;
+}
+
+.timing-items {
+    margin-right: 17px;
+    color: #E07575;
+    font-size: 45px;
+
+}
+
+.current-trend {
+    padding-bottom: 140px;
+}
+
+.current-img {
+    background-color: #F5F5F5;
+    border-radius: 24px;
+    margin-right: 8px;
+    padding: 11px;
+}
+
+.currents-img {
+    background-color: #F5F5F5;
+    border-radius: 24px;
+    padding: 11px;
+}
+
+.bg-trend {
+    height: 250px;
+    background-color: #F5F5F5;
+
+    margin-bottom: 16px;
+    margin-right: 30px;
+}
+
+.game-set {
+    background-color: #DB4444;
+    border-radius: 4px;
+    padding: 4px 12px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.game-itm {
+    height: 223px;
+    margin-top: -29px;
+    z-index: 2;
+    width: 234px;
+}
+
+.game-itms {
+    height: 223px;
+    margin-top: -25px;
+    z-index: 2;
+    width: 234px;
+}
+
+.game-itmess {
+    height: 230px;
+    margin-top: -40px;
+    z-index: 2;
+    width: 254px;
+}
+
+.eye-bg {
+    margin-top: 5px;
+    border-radius: 50%;
+    padding: 5px;
+    margin-bottom: 8px;
+
+}
+
+.eyes-bg {
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+
+
+}
+
+.star-tit {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins';
+    margin-bottom: 8px;
+}
+
+.star-num {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins';
+    color: #DB4444;
+}
+
+.star-nums {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins';
+    text-decoration: line-through;
+
+}
+
+.View-btn {
+    padding: 16px 48px;
+    color: #fff;
+    background-color: #DB4444;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins';
+    border-radius: 4px;
+    border: none;
+}
+
+.trending-sale {
+    margin-bottom: 60px;
+}
+
+.Categories-sec {
+    margin-bottom: 140px;
+}
+
+.Categories-sec .cot-tittle {
+    font-size: 36px;
+    font-weight: 600;
+      font-family: 'Poppins';
+}
+
+.Categories-products {
+    border: 1px solid #ECECEC;
+    padding: 20px 25px;
+    border-radius: 5px;
+}
+
+.per-img {
+    height: 94px;
+    width: 102px;
+
+}
+
+.Categories-sec .Categori-product {
+    border: 1px solid #ECECEC;
+    padding: 20px 25px;
+    border-radius: 5px;
+}
+
+.Categories-sec .Categories-product {
+    border: 1px solid #ECECEC;
+    padding: 20px 25px;
+    border-radius: 5px;
+}
+
+.Categories-sec .Categori-products {
+    border: 1px solid #ECECEC;
+    padding: 20px 25px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #B1874E;
+
+}
+
+.cat-pic {
+    margin-bottom: 16px;
+}
+
+.cate-sales {
+    margin-bottom: 60px;
+}
+
+.product-sec {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins';
+}
+
+.month-sales .cate-btn {
+    border: none;
+    background-color: #DB4444;
+    color: #fff;
+    padding: 16px 48px;
+    border-radius: 4px;
+}
+
+.month-sales {
+    padding-bottom: 140px;
+}
+
+.month-sales .month-sale {
+    margin-bottom: 60px;
+}
+
+.month-sales .sale-product {
+    background-color: #F5F5F5;
+    height: 250px;
+    width: 270px;
+    padding: 12px;
+    margin-bottom: 16px;
+}
+
+.sale-cart {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.Categories-pic {
+    margin-bottom: 71px;
+}
+
+.pro-item {
+    margin-bottom: 60px;
+}
+
+.pro-items {
+    margin-bottom: 60px;
+
+}
+
+.bg-cate {
+    background-image: url(/assets/perfume\ banner\ 1.png);
+    height: 500px;
+    background-size: cover;
+    padding-left: 56px;
+}
+
+.timing-itemes {
+    margin-bottom: 40px;
+    margin-top: 69px;
+    margin-bottom: 69px;
+}
+
+.timing-sec {
+    background-color: #fff;
+    border-radius: 50%;
+    color: #000000;
+    padding: 14px 15px;
+    height: 62px;
+    width: 62px;
+}
+
+.cate-para {
+    font-size: 27px;
+    font-weight: 500;
+    color: #C9A45C;
+    font-family: 'Poppins';
+    margin-bottom: 12px;
+}
+
+.cat-para {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins';
+    color: #E6E0D5;
+    margin-bottom: 43px;
+}
+
+.time-cate {
+    margin-bottom: 40px;
+}
+
+.cate-title {
+    font-size: 48px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 17px;
+}
+
+.paras {
+    font-size: 11px;
+    font-weight: 400;
+    font-family: 'Poppins';
+}
+
+.time-btn {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 16px 25px;
+    background-color: transparent;
+    border: none;
+  
+}
+.time-btns{
+    background-color: #C4975F;
+    border-radius: 4px;
+    width: 218px;
+}
+
+.Our-Products {
+    margin-bottom: 140px;
+}
+
+.pasentage {
+    margin-bottom: 8px;
+}
+
+.outer-border {
+    border: 1px #000 solid;
+    padding: 2px;
+    border-radius: 50%;
+
+}
+
+.dote-item {
+    background-color: #DB4444;
+    border-radius: 50%;
+    height: 14px;
+    width: 13px;
+}
+
+.dote-itemes {
+    background-color: yellow;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    border: 1px #000 solid;
+}
+
+.dote-items {
+    background-color: #DB4444;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
+
+.Featured-sec {
+    margin-bottom: 140px;
+}
+
+.feat-items {
+    margin-bottom: 60px;
+}
+
+.fear-bg {
+    background-image: url(/assets/perfume\ banner\ 2.png);
+    background-size: cover;
+    height: 600px;
+    padding: 89px 30px 0px 29px;
+    border-radius: 4px;
+}
+
+.header-feat {
+    margin-bottom: 29px;
+    margin-left: 30px;
+}
+
+.feat-new {
+    font-size: 24px;
+    font-weight: 500;
+    color: #C9A45C;
+    margin-bottom: 16px;
+    font-family: "Great Vibes", cursive;
+}
+
+.feat-head {
+    font-size: 40px;
+    font-weight: 600;
+    color: #FAFAFA;
+    margin-bottom: 16px;
+    font-family: "Cormorant Garamond", serif;
+}
+
+.feat-heades {
+    font-size: 25px;
+    font-weight: 600;
+    color: #FAFAFA;
+    margin-bottom: 16px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.feat-para {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FAFAFA;
+    margin-bottom: 16px;
+    font-family: 'Poppins';
+
+}
+
+.shops-now {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+
+}
+.shops-nows {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    margin-right: 7px;
+
+}
+
+.bg-color-items {
+    background-image: url(/assets/perfume\ banner\ 3.png);
+    background-size: cover;
+    height: 284px;
+    border-radius: 4px;
+    margin-bottom: 32px;
+}
+
+.feat-imgs {
+    margin-bottom: 26px;
+}
+
+.bg-col {
+    background-image: url(/assets/banner\ bottom\ 1.png);
+    background-size: cover;
+    height: 284px;
+    border-radius: 4px;
+    padding: 31px 30px;
+
+}
+
+.bg-cols {
+    background-image: url(/assets/banner\ bottom\ 2.png);
+    background-size: cover;
+    height: 284px;
+    border-radius: 4px;
+    padding: 31px 30px;
+
+}
+
+.feat-heads {
+    font-size: 40px;
+    font-weight: 700;
+    color: #FAFAFA;
+    margin-bottom: 8px;
+      font-family: "Cormorant Garamond", serif;
+}
+
+.feat-headss {
+    font-size: 35px;
+    font-weight: 600;
+    color: #FAFAFA;
+    margin-bottom: 8px;
+      font-family: "Cormorant Garamond", serif;
+}
+.icon-col{
+    color: #fff;
+}
+.btn-icon{
+    border: 1px #E6E0D5 solid;
+    border-radius: 9px;
+    padding: 9px;
+    width: 125px;
+}
+.feat-paras {
+    font-size: 17px;
+    color: #FAFAFA;
+    margin-bottom: 20px;
+    font-family: 'Poppins';
+
+}
+
+.icon-sec {
+    margin-bottom: 140px;
+}
+
+.deleve-pic {
+    margin-bottom: 24px;
+    background-color: #C9A45C;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.deleve-pics {
+    margin-bottom: 24px;
+    background-color: #C9A45C;
+    padding: 15px;
+    border-radius: 50%;
+    height: 75px;
+}
+
+.icon-head {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Poppins';
+    margin-bottom: 8px;
+}
+
+.icon-para {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer-sec {
+    background-color: #0C0E0D;
+    height: 440px;
+    padding-top: 40px;
+}
+
+.controls-search {
+    border: none;
+    background-color: #000;
+    color: #fff;
+    outline: none;
+}
+
+.email-sec {
+    border: 1px #FAFAFA solid;
+}
+
+.btn-items {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+}
+
+.tittle-name {
+    color: #C9A45C;
+}
+
+.fot-color {
+    color: #C9A45C;
+    font-size: 23px;
+    margin-bottom: 27px;
+}
+
+.fot-colors {
+    color: #fff;
+    font-size: 17px;
+    margin-bottom: 27px;
+}
+
+.list-order {
+    list-style-type: none;
+    color: #fff;
+}
+
+.img-logos {
+    height: 48px;
+    margin-bottom: 25px;
+}
+
+.fot-head {
+    color: #fff;
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+.fot-prara {
+    color: #5A5C5B;
+    margin-bottom: 37px;
+    margin-bottom: 25px;
+}
+
+.img-sec {
+    background-color: #C9A45C;
+    padding: 10px;
+    border-radius: 21%;
+}
+
+.img-section {
+    background-color: #C9A45C;
+    padding: 10px;
+
+}
+
+.play-icon {
+    height: 58px;
+
+}
+
+.play-get {
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.g-play-item {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.li-icon {
+    color: #fff;
+    font-size: 21px;
+}
